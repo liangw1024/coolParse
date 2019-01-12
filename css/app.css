@@ -1,0 +1,72 @@
+body
+{
+  background-color: #f9f9f9;
+}
+.header{
+  
+  position: relative;
+}
+.header-intro{
+  margin-top : 8px;
+  margin-left: 12px;
+  color      : #2D2D2D;
+}
+.header-intro span{
+  color: red;
+}
+.toolbar{
+  box-shadow: 0px 1px 4px #767676;
+}
+.t-right-nav{
+  color: #fff;
+  
+}
+
+img.head{
+  border       : 1px solid #fff;
+  width        : 80px;
+  height       : 80px;
+  border-radius: 360px;
+  
+}
+.server-show-container{
+  padding      : 20px 30px;
+  border-bottom: 1px solid red;
+}
+.server-show-title-container{
+  color     : #000;
+  text-align: center;
+  font-size : 18px;
+}
+.server-show-msg-container p{
+  color     : #000;
+  text-align: center;
+  font-size : 15px;
+}
+
+.footer{
+  position: absolute;
+  bottom  : 0px;
+  width   : 100%;
+ 
+}
+.t-center{
+  text-align: center;
+}
+
+.b-center{
+  
+  margin: 0 auto;
+}
+.test{
+  background-color: red;
+  text-align      : center;
+}
+@keyframes head-rotate{
+  1%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg)
+  }
+}
