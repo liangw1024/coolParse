@@ -27,21 +27,28 @@ img.head{
   width        : 80px;
   height       : 80px;
   border-radius: 360px;
-  
+
 }
 .server-show-container{
-  padding      : 20px 30px;
-  border-bottom: 1px solid red;
+  padding: 20px 0px;
 }
 .server-show-title-container{
-  color     : #000;
+  height: 80px;
+}
+.server-show-title-container p{
+  color     : #fff;
   text-align: center;
-  font-size : 18px;
+  font-size : 27px;
+  line-height: 80px;
+}
+.server-show-msg-container{
+  height: 40px;
+
 }
 .server-show-msg-container p{
-  color     : #000;
+  color     : #e3e3e3;
   text-align: center;
-  font-size : 15px;
+  font-size : 13px;
 }
 
 .footer{
