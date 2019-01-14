@@ -6,7 +6,7 @@ if(!isset($originalUrl)){
 	
 }
 /**
-*获取资源平台
+*获取资源平台.
 */
 function getSourcePlatform($url){
 	$result = null;
