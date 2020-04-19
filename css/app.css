@@ -77,3 +77,6 @@ img.head{
     transform: rotate(360deg)
   }
 }
+.layui-text span{
+  color: red;
+}
